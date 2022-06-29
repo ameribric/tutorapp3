@@ -35,6 +35,3 @@ class TutorsController < ApplicationController
 
 
 end
-
-
-end

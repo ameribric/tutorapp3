@@ -11,8 +11,7 @@ class SessionsController < ApplicationController
     end
 
     def create
-        session = Session.find(params[:id])
-        session.create!(session_params)
+        session = Session.create!(session_params)
         render json: session
     end
 
